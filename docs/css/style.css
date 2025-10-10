@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f0f8ff;
+  transition: background 2s, color 1s; /* Transition douce */
+}
+.dark {
+  background-color: #222;             /* Fond sombre pour le mode dark */
+  color: #f0f0f0;                     /* Police claire pour le mode dark */
+  transition: background 1s, color 0.5s;
+}
